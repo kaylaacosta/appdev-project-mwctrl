@@ -18,10 +18,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Route::get('/kei', function () {
-//     return 'I am Kei soaper cute';
-// });
-
-Route::get('/user', function (Request $request) {
-    return $request->name . ' - ' . $request->email;
+Route::get('/kei', function () {
+    return 'I am Kei na mas cute';
 });
